@@ -1,0 +1,39 @@
+.stop-background {
+    display: flex;
+}
+
+#title {
+    display: flex;
+    justify-content: left;
+}
+
+#github {
+    display: flex;
+    justify-content: center;
+}
+
+.headings {
+    background-color: purple;
+    text-decoration: underline;
+    color: rgb(255,255,255);
+    font-family: Arial, "Times New Roman" , "Brush Script MT", Copperplate, Papyrus, fantasy, cursive;
+    font-weight: 1000;
+}
+
+#main {
+    justify-content: center;
+}
+
+.subheadings.headings {
+    color: yellow;
+}
+
+.cook{
+    background-color: gold;
+}
+
+.thankyou {
+    background-color: pink;
+    color: white;
+}
+
