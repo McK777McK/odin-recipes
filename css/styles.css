@@ -7,6 +7,11 @@
     justify-content: left;
 }
 
+#title-image {
+    height: auto;
+    width: 369px;
+}
+
 #github {
     display: flex;
     justify-content: center;
@@ -16,6 +21,7 @@
     background-color: purple;
     text-decoration: underline;
     color: rgb(255,255,255);
+    /*for whatever reason my browser has no fonts? */
     font-family: Arial, "Times New Roman" , "Brush Script MT", Copperplate, Papyrus, fantasy, cursive;
     font-weight: 1000;
 }
@@ -37,3 +43,31 @@
     color: white;
 }
 
+.menu-images {
+    height: auto;
+    width: 150px;
+}
+
+.recipe-images {
+    height: auto;
+    width: 500px;
+}
+
+.bold-n-brash {
+    font-weight: bold;
+    display: inline-block;
+}
+
+.listen-up {
+    font-style: italic;
+    display: inline-block;
+}
+
+.stop-background.thankyou {
+    display: flex;
+    justify-content: center;
+}
+.main-recipe-images {
+    height: auto;
+    width: 300px;
+}
